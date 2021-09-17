@@ -11,7 +11,11 @@
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="RobotExpressive.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" autoplay>
+    <model-viewer 
+    src="RobotExpressive.glb" 
+    ios-scr="RobotExpressive.usdz"
+
+    ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" autoplay>
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
